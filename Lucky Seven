@@ -1,0 +1,12 @@
+
+#include <stdio.h>
+
+int main(void) {
+	char n[10];
+	scanf("%s",n);
+	int luck=n[6];
+	printf("%c",luck);
+	
+
+}
+
