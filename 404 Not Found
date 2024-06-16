@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main(void) {
+	// your code goes here
+	int responce;
+	scanf("%d",&responce);
+	if(responce==404)
+	{
+	    printf("NOT FOUND");
+	}
+	else{
+	    printf("FOUND");
+	}
+
+}
+
