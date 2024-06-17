@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main(void) {
+	// your code goes here 
+	int t;
+	scanf("%d",&t);
+	for(int i=0;i<t;i++)
+	{
+	    int xmin;
+	    scanf("%d",&xmin);
+	    if(xmin>=30)
+	    {
+	        printf("YES\n");
+	    }
+	    else
+	    {
+	        printf("NO\n");
+	    }
+	}
+
+}
+
