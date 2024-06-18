@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+    int t;
+    scanf("%d",&t);
+    for(int i=0;i<t;i++)
+    {
+    int X, discount1, discount2;
+    scanf("%d", &X);
+    discount1 = X / 10; 
+    discount2 = 100;    
+
+    if (discount1 > discount2) {
+       
+        printf("%d\n", discount1);
+    } else {
+        printf("%d\n", discount2);
+    }
+    }
+
+    return 0;
+}
