@@ -1,0 +1,17 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	for(int i=0;i<t;i++)
+	{
+	    int n,x;
+	    cin>>n>>x;
+	    int totalsongmin= x*3;
+	    cout<<n/totalsongmin<<endl;
+	    
+	}
+
+}
