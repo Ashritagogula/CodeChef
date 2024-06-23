@@ -1,0 +1,16 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int t;
+     cin >> t;
+     for(int i=0;i<t;i++)
+     {
+         int x_assignments,y_min,z_days;
+         cin >> x_assignments >> y_min >> z_days;
+         if((x_assignments*y_min)<=(z_days*60*24)) cout << "YES" <<endl;
+         else cout << "NO" <<endl;
+     }
+	
+
+}
