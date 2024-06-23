@@ -1,0 +1,22 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin >> t;
+	for(int i=0;i<t;i++)
+	{
+	    int n_fri , m_stu , k_oth ;
+	    cin >> n_fri >> m_stu >> k_oth;
+	    int possible = m_stu-k_oth;
+	    if(possible>=n_fri)
+	    {
+	        cout << "YES" <<endl;
+	    }
+	    else
+	    {
+	        cout << "NO" <<endl;
+	    }
+	}
+}
