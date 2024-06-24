@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main(void) {
+	// your code goes here
+	int t;
+	scanf("%d",&t);
+	for(int i=0;i<t;i++)
+	{
+	    int a,b;
+	    scanf("%d%d",&a,&b);
+	    int c;
+	    scanf("%d",&c);
+	    float avg = (a+b)/2.0;   //6
+
+	    if(avg>c)
+	    {
+	        printf("YES\n");
+	    }
+	    else
+	    {
+	        printf("NO\n");
+	    }
+	}
+
+}
+
