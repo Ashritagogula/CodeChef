@@ -1,0 +1,24 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	int t;
+	cin >> t;
+	for(int i=0;i<t;i++)
+	{
+	    int xrupee,yrupee;
+	    cin >> xrupee >> yrupee;
+	    int curmon = 30*yrupee;
+	    if(curmon<=xrupee)
+	    {
+	        cout << "YES" <<endl;;
+	    }
+	    else
+	    {
+	        cout << "NO" << endl;
+	    }
+	    
+	}
+	
+
+}
