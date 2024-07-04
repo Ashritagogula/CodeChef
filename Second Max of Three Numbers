@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main(void) {
+    int N;
+    scanf("%d", &N);
+    
+    for(int i = 0; i < N; i++) {
+        int a, b, c;
+        scanf("%d %d %d", &a, &b, &c);
+        
+        // We need to find the second maximum of the three numbers
+        int secondMax;
+        if ((a > b && a < c) || (a > c && a < b))
+            secondMax = a;
+        else if ((b > a && b < c) || (b > c && b < a))
+            secondMax = b;
+        else
+            secondMax = c;
+        
+        printf("%d\n", secondMax);
+    }
+    
+    return 0;
+}
