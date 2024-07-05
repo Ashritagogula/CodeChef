@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int T,X,Y;
+	cin>>T;
+	while(T--)
+	{
+	    cin>>X>>Y;
+	    if(100*X>=10*Y)
+	    {
+	        cout<<"CLOTH"<<endl;
+	    }
+	    else 
+	    cout<<"DISPOSABLE"<<endl;
+	}
+	return 0;
+}
