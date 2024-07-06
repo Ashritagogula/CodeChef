@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main(void) {
+	int t;
+	scanf("%d",&t);
+	for(int i=0;i<t;i++)
+	{
+	    int height,max;
+	    scanf("%d%d",&height,&max);
+	    if(height>=max)
+	    {
+	        printf("YES\n");
+	    }
+	    else
+	    {
+	        printf("NO\n");
+	    }
+	}
+	
+
+}
+
