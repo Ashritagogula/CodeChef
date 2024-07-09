@@ -1,0 +1,17 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--)
+	{
+	    int min;
+	    cin>>min;
+	    int x= min*60;
+	    int tot_time_for_one_sub = x/30;
+	    cout<<tot_time_for_one_sub<<endl;
+	}
+
+}
