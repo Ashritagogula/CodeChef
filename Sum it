@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main(void) {
+	int t;
+	scanf("%d",&t);
+	for(int i=0;i<t;i++)
+	{
+	    int A,B;
+	    scanf("%d%d",&A,&B);
+	    int sum = A+B;
+	    int C;
+	    scanf("%d",&C);
+	    if(sum==C)
+	    printf("YES\n");
+	    else
+	    printf("NO\n");
+	}
+
+}
+
