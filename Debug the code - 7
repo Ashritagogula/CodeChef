@@ -1,0 +1,7 @@
+// Solution
+#include <stdio.h>
+
+int main() {
+    char name = 'A';
+    printf("%d", name == 'A' || name == 'C'); // used correct format specifier
+} // added missing closing bracket
