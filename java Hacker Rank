@@ -1,0 +1,14 @@
+import java.util.*;
+import java.io.*;
+public class Solution{
+    public static void main(String args[]){
+        Scanner read=new Scanner(System.in);
+            int linenumber=1;
+            while(read.hasNext()){
+                String l=read.nextLine();
+                System.out.println(linenumber+" "+l);
+                linenumber++;
+            }
+        read.close();
+    }
+}
