@@ -1,0 +1,24 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		int A,B,X,Y;
+		Scanner sc=new Scanner(System.in);
+		A=sc.nextInt();
+		B=sc.nextInt();
+		X=sc.nextInt();
+		Y=sc.nextInt();
+		if (X<Y){
+		    System.out.println(B);
+		} 
+		else{
+		    System.out.println(A);
+		}
+
+	}
+}
