@@ -1,0 +1,12 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int x,y;
+	cin>>x>>y;
+	int timehalf=y/2;
+	int rem=x-y;
+	int total=timehalf+rem;
+	cout<<total;
+}
