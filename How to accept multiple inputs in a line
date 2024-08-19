@@ -1,0 +1,4 @@
+# Replace the underscores with the correct value
+
+A, B, C = map(int, input().split())
+print(A, B, C)
