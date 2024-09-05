@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main(void) {
+	int xhours;
+	scanf("%d",&xhours);
+	if(xhours<3)
+	{
+	    printf("GOLD\n");
+	}
+	else if(xhours>=3 && xhours<6)
+	{
+	    printf("SILVER\n");
+	} 
+	else if(xhours>=6)
+	{
+	    printf("BRONZE\n");
+	}
+
+}
+
