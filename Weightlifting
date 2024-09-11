@@ -1,0 +1,5 @@
+a,b,c,d,e,f=map(int,input().split())
+r1=max(a,b)
+r2=max(c,d)
+r3=max(e,f)
+print(r1+r2+r3)
