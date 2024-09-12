@@ -1,0 +1,11 @@
+# Function to find the sum of elements at even indices
+def sum_of_even_positions(arr):
+    return sum(arr[i] for i in range(0, len(arr), 2))
+
+# Input: First line for N and the second line for array elements
+N = int(input())
+arr = list(map(int, input().split()))
+
+# Output: Sum of even indexed elements
+result = sum_of_even_positions(arr)
+print(result)
