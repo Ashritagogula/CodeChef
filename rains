@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+    int x;
+    
+    // Read the input value
+    scanf("%d", &x);
+    
+    // Determine the category of rainfall
+    if (x < 3) {
+        printf("LIGHT\n");
+    } else if (x >= 3 && x < 7) {
+        printf("MODERATE\n");
+    } else if (x >= 7) {
+        printf("HEAVY\n");
+    }
+    
+    return 0;
+}
