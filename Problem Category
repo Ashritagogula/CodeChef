@@ -1,0 +1,5 @@
+# cook your dish here
+t = int(input())
+for _ in range(t):
+    x = int(input())
+    print("Easy" if x < 100 else "Medium" if x < 200 else "Hard")
