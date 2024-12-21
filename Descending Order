@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class DescendingArray {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        int n = scanner.nextInt(); // Read the length of the array
+        
+        // If the array length is zero, it's trivially descending
+        if (n == 0) {
+            System.out.println("yes");
+            return;
+        }
+
+        int[] arr = new int[n]; // Declare the array
+        
+        // Read the array elements
+        for (int i = 0; i < n; i++) {
+            arr[i] = scanner.nextInt();
+        }
+        
+        // Check if the array is strictly descending
+        for (int i = 1; i < n; i++) {
+            if (arr[i] >= arr[i - 1]) { // Not strictly descending
+                System.out.println("no");
+                return; // Exit as soon as we know it's not descending
+            }
+        }
+        
+        // If the loop completes without printing "no", it's descending
+        System.out.println("yes");
+    }
+}
