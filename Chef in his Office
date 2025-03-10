@@ -1,0 +1,22 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		// x hours for 4 days , 4*x 
+		// y hours for 1 day , 1*y 
+		Scanner sc = new Scanner(System.in);
+		int t = sc.nextInt();
+		for(int i=0; i<t; i++){
+		    int x,y;
+		    x = sc.nextInt();
+		    y = sc.nextInt();
+		    System.out.println((x*4)+(1*y));
+		}
+
+	}
+}
