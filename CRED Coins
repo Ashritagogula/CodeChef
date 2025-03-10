@@ -1,0 +1,21 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		Scanner sc = new Scanner(System.in);
+		int t = sc.nextInt();
+		for(int i = 0; i<t; i++){
+		    int x = sc.nextInt();     // x cred points , y*x for total cred points 
+		    int y = sc.nextInt();
+		  //  int count = 0;
+		    int res = (y*x)/100;
+		    System.out.println(res);
+		    
+		}
+	}
+}
