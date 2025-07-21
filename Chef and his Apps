@@ -1,0 +1,26 @@
+import java.util.*;
+
+class Codechef {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int t = sc.nextInt();
+        
+        while(t-- > 0){
+            int s = sc.nextInt(); // total memory
+            int x = sc.nextInt(); // app1
+            int y = sc.nextInt(); // app2
+            int z = sc.nextInt(); // new app
+
+            int used = x + y;
+            int free = s - used;
+
+            if (free >= z) {
+                System.out.println(0);
+            } else if (s - Math.min(x, y) >= z) {
+                System.out.println(1);
+            } else {
+                System.out.println(2);
+            }
+        }
+    }
+}
