@@ -1,0 +1,15 @@
+import java.util.*;
+class Codechef {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int t = sc.nextInt();  // fixed semicolon
+        for(int i = 0; i < t; i++) {
+            int n = sc.nextInt();
+            int x = sc.nextInt();
+            int k = sc.nextInt();
+            int maxBottles = Math.min(n, k / x);
+            System.out.println(maxBottles);
+        }
+        sc.close();
+    }
+}
