@@ -1,0 +1,16 @@
+# cook your dish here
+n= int(input())
+for _ in range(n):
+    m = int(input())
+    s = input().strip()
+    comp=""
+    for c in s:
+        if c== 'A':
+            comp+='T'
+        elif c=='T':
+            comp+='A'
+        elif c == 'C':
+            comp+='G'
+        elif c=='G':
+            comp+='C'
+    print(comp)
