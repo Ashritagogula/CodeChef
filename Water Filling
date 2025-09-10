@@ -1,0 +1,32 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		
+		Scanner read=new Scanner(System.in);
+		int t=read.nextInt();
+		for (int i=0;i<t;i++ ) {
+		int B1,B2,B3;
+		B1=read.nextInt();
+		B2=read.nextInt();
+		B3=read.nextInt();
+		if (B1==1 && B2 ==1 && B3==1){
+		    System.out.println("Not now");
+		} 
+		else if(B1==1 && B2==1 && B3==0 || B1==1 && B2==0 && B3==1 || B1==0 && B2==1 && B3==1){
+		    System.out.println("Not now");
+		}
+		else if(B1==1 && B2==0 && B3==0 || B1==0 && B2==0 && B3==1 || B1==0 && B2==1 && B3==0){
+		    System.out.println("Water filling time");
+		}
+		else {
+		    System.out.println("Water filling time");
+		}
+		}
+	}
+}
