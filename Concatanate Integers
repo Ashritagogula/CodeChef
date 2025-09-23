@@ -1,0 +1,5 @@
+a = int(input())
+b = int(input())
+# Write Your Code to Concate and Print
+n = str(a) + str(b)
+print(n)
