@@ -1,0 +1,9 @@
+# cook your dish here
+import math
+t = int(input())
+for i in range(t):
+    n,x = map(int,input().split())
+    if n*x<=4:
+        print("1")
+    else:
+        print(math.ceil((x*n)/4))
