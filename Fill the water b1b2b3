@@ -1,0 +1,9 @@
+# cook your dish here
+
+t = int(input())
+for i in range(t):
+    b1,b2,b3 = map(int,input().split())
+    if (b1 == 0 and b2 == 0) or (b1 == 0 and b3 == 0) or (b2 == 0 and b3 == 0):
+        print("Water filling time")
+    else:
+        print("Not now")
