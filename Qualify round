@@ -1,0 +1,8 @@
+# cook your dish here
+t = int(input())
+for _ in range(t):
+    a, b, c = map(int,input().split())
+    if (b*1)+(c*2) >= a:
+        print("Qualify")
+    else:
+        print("NotQualify")
